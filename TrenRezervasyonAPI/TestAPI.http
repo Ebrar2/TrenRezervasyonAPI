@@ -1,2 +1,2 @@
 # For more info on HTTP files go to https://aka.ms/vs/httpfile
-GET http://localhost:5193/Reservation/Giris
+GET http://localhost:5193/api/Reservation/Giris

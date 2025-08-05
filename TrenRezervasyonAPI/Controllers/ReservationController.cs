@@ -7,11 +7,6 @@ namespace TrenRezervasyonAPI.Controllers
     [ApiController]
     public class ReservationController : ControllerBase
     {
-        [HttpGet]
-        public string Giris()
-        {
-            return "Merhabalar";
-        }
         [HttpPost]
         public RezervasyonSonuc RezervasyonYap(RezervasyonGiris rezervasyon)
         {
